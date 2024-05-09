@@ -17,7 +17,7 @@ function App() {
   }, []);
   return (
     <>
-      <div className="bg-[#0a0a23] h-full w-full  flex flex-col items-center gap-4  ">
+      <div className="bg-[#0a0a23] h-screen w-screen  flex flex-col items-center gap-4  ">
         <p className="sm:text-4xl font-semibold text-white mx-auto mt-8 font-mono text-3xl">
           Pokemon Search App
         </p>
