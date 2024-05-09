@@ -6,7 +6,7 @@ function App() {
   const [term,setTerm]= useState();
   const getPokemon = async (name) => {
     const res = await fetch(
-      `https://pokeapi-proxy.freecodecamp.rocks/api/pokemon/${name}`
+      `https://pokeapi-proxy.freecodecamp.rocks/api/pokemon/${name || id}`
     );
     const data = await res.json();
     console.log(data);
