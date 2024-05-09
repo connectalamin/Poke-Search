@@ -17,7 +17,7 @@ const Info = ({pokemon}) => {
 
 <img className="w-36 h-36  object-cover m-auto" src={pokemon.sprites.front_default} alt="" />
 </div>
-<p className="my-1 py-1 bg-orange-300 text-black w-24 px-4 rounded-lg text-center font-medium capitalize">{pokemon.types.map((type) => type.type.name)}</p>
+<p className="my-1 py-1 bg-orange-300 text-black w-32 px-2 rounded-lg text-center font-medium capitalize">{pokemon.types.map((type) => type.type.name)}</p>
     </div>
   )
 }
